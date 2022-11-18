@@ -41,3 +41,21 @@ addEventListener("DOMContentLoaded", () => {
     }    
         
 })
+
+addEventListener("DOMContentLoaded", () => {
+    const lineasmenu = document.querySelector(".lineamenu")
+    const salir_1 = document.querySelector(".salir_1")
+    if(lineasmenu) {
+        lineasmenu.addEventListener("click", () => {
+            const lineas = document.querySelector(".lineas")
+            lineas.classList.toggle("action_2")
+        })
+    }
+
+    if (salir_1) {
+        salir_1.addEventListener("click", () =>{
+            const lineas = document.querySelector(".lineas")
+            lineas.classList.toggle("action_2")
+        })
+    }
+})
