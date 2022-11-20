@@ -10,8 +10,8 @@ addEventListener("DOMContentLoaded", () => {
 
 addEventListener("DOMContentLoaded", () => {
     const inicio = document.querySelector(".inicio")
-    const libros = document.querySelector(".libros")
-    const sociales = document.querySelector(".sociales")
+    const lineamenu = document.querySelector(".lineamenu")
+    const trabajo = document.querySelector(".trabajo")
     const contacto = document.querySelector(".contacto")
     
     
@@ -21,14 +21,14 @@ addEventListener("DOMContentLoaded", () => {
             menu_items.classList.toggle("action")
         })
     }    
-    if(libros) {
-        libros.addEventListener("click", () => {
+    if(lineamenu) {
+        lineamenu.addEventListener("click", () => {
             const menu_items = document.querySelector(".menu_items")
             menu_items.classList.toggle("action")
         })
     }    
-    if(sociales) {
-        sociales.addEventListener("click", () => {
+    if(trabajo) {
+        trabajo.addEventListener("click", () => {
             const menu_items = document.querySelector(".menu_items")
             menu_items.classList.toggle("action")
         })
