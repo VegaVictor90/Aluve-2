@@ -331,7 +331,7 @@ footer p{
     }  
     .linea_1{
         width: 300px;
-        height: 500px;
+        height: 550px;
     }
     .linea_img{
         width: 290px;
@@ -343,6 +343,7 @@ footer p{
     }
     .linea_1 p{
         font-size: 17px;
+        height: auto;
     }
     .contactar{
         width: 170px;
