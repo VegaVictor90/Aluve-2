@@ -108,11 +108,14 @@
     background-color: #000000;
     color: #ffffff;
 }
-.linea_img.modena{
+.linea_img.herrero{
     background-image: url(./Linea\ Herrero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.linea_img.modena{
+    background-color: #cf661073;
 }
 .linea_img.modena2{
     background-color: #8f4a1173;
