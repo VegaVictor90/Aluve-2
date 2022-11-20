@@ -319,7 +319,15 @@ footer p{
         background-color: #ffffff;
         overflow-y: scroll;
     }
-    
+    span.salir_1{
+        padding-right: 25px;
+        padding-top: 20px;
+    }
+    .lineas h2{
+        text-align: center;
+        margin-top: 30px;
+        padding: 0;
+    }    
     nav ul {
         position: fixed;
         width: 100vw;
