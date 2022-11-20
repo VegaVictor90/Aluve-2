@@ -322,12 +322,34 @@ footer p{
     span.salir_1{
         padding-right: 25px;
         padding-top: 50px;
+        font-size: 25px;
     }
     .lineas h2{
         text-align: center;
         margin-top: 30px;
         padding: 0;
-    }    
+    }  
+    .linea_1{
+        width: 300px;
+        height: 500px;
+    }
+    .linea_img{
+        width: 290px;
+        height: 290px;
+    }
+    .linea_1 h4{
+        font-size: 28px;
+        line-height: 14px;
+    }
+    .linea_1 p{
+        font-size: 17px;
+    }
+    .contactar{
+        width: 170px;
+        height: 35px;
+        font-size: 18px;
+        border-radius: 17.5px;
+    }
     nav ul {
         position: fixed;
         width: 100vw;
